@@ -67,14 +67,14 @@ a:hover {
 
 /* --- Cards (Metallic Blue BG with Red Border) --- */
 .card {
-  background: linear-gradient(135deg, #001a4d 0%, #003399 100%) !important;
-  color: #ffffff !important; /* White text for better readability on blue */
+  background: linear-gradient(135deg, #001a4d 0%, #003399 100%) important;
+  color: #ffffff important; /* White text for better readability on blue */
   border-radius: 8px;
   overflow: hidden;
 }
 
 .border-purple {
-  border: 4px solid !important;
+  border: 4px solid important;
   border-image: linear-gradient(
     to bottom right, 
     #002366 0%, 
