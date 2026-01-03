@@ -20,7 +20,7 @@ a:hover {
 /* --- Typewriter & Blinking Cursor --- */
 .cursor {
   font-weight: bold;
-  animation: blink 1s step-end infinite;
+  animation: blink 19s step-end infinite;
   color: inherit;
 }
 
@@ -56,11 +56,11 @@ a:hover {
   padding: 4px; /* Space for the metallic gradient border */
   background: linear-gradient(
     45deg, 
-    #8b0000, 
+    #4169e1, 
     #ff0000, 
     #ff9999, 
     #ff0000, 
-    #8b0000
+    #4169e1
   );
   border: none !important; 
 }
@@ -77,11 +77,11 @@ a:hover {
   border: 4px solid !important;
   border-image: linear-gradient(
     to bottom right, 
-    #8b0000, 
+    #4169e1, 
     #ff0000, 
     #ff4d4d, 
     #ff0000, 
-    #8b0000
+    #4169e1
   ) 1;
   box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
 }
