@@ -1,15 +1,15 @@
 body {
   background-color: #110e0e;
-  color: #e6a6ec;
+  color: #275bf5;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1, h2, h3 {
-  color: #e6a6ec;
+  color: #275bf5;
 }
 
 a {
-  color: #e6a6ec;
+  color: #275bf5;
   text-decoration: none;
 }
 
@@ -18,11 +18,11 @@ a:hover {
 }
 
 .bg-gradient-purple {
-  background: linear-gradient(to right, #8e44ad, #e6a6ec);
+  background: linear-gradient(to right, #8e44ad, #275bf5);
 }
 
 .text-light-purple {
-  color: #e6a6ec;
+  color: #275bf5;
 }
 
 .profile-pic {
@@ -39,11 +39,11 @@ a:hover {
 
 .card {
   background-color: #1c1c1c;
-  color: #e6a6ec;
+  color: #275bf5;
 }
 
 .card-title {
-  color: #e6a6ec;
+  color: #275bf5;
 }
 
 .card-img-top {
