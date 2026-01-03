@@ -65,7 +65,7 @@ a:hover {
   border: none !important; 
 }
 
-/* --- Cards (Metallic Blue BG with Red Border) --- */
+/* --- Cards (Metallic Blue BG) --- */
 .card {
   background: linear-gradient(135deg, #001a4d 0%, #003399 100%) important;
   color: #ffffff important; /* White text for better readability on blue */
@@ -73,7 +73,7 @@ a:hover {
   overflow: hidden;
 }
 
-.border-purple {
+.border-blue {
   border: 4px solid important;
   border-image: linear-gradient(
     to bottom right, 
@@ -83,7 +83,7 @@ a:hover {
     #0047ab 55%, 
     #002366 100%
   ) 1;
-  box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+  box-shadow: 0 0 15px rgba(65, 105, 225);
 }
 
 .card-title {
@@ -129,7 +129,7 @@ a:hover {
 
 .light-mode .navbar,
 .light-mode .bg-gradient-blue {
-  background: linear-gradient(to right, #f0f0f0, #4169e1) !important;
+  background: linear-gradient(to right, #f0f0f0, #4169e1) important;
 }
 
 .light-mode .card {
