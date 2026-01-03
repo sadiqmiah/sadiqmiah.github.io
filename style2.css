@@ -17,18 +17,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* --- Typewriter & Blinking Cursor --- */
-.cursor {
-  font-weight: bold;
-  animation: blink 19s step-end infinite;
-  color: inherit;
-}
-
-@keyframes blink {
-  from, to { opacity: 1; }
-  100% { opacity: 0; }
-}
-
 /* --- Navbar (Metallic Royal Blue) --- */
 .bg-gradient-blue {
   background: linear-gradient(
@@ -123,38 +111,34 @@ a:hover {
   color: #1a1a1a;
 }
 
-.light-mode h1, .light-mode h2, .light-mode h3 {
-  color: #4169e1;
-}
-
 .light-mode .navbar,
-.light-mode .bg-gradient-blue {
-  background: linear-gradient(
-    145deg, 
-    #002366 0%, 
-    #0047ab 45%, 
-    #4169e1 50%, 
-    #0047ab 55%, 
-    #002366 100%
-  ) !important;
-  border-bottom: 1px solid #4169e1;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+.light-mode .bg-gradient-purple {
+  background: linear-gradient(to right, #f0f0f0, #4169e1) !important;
 }
 
 .light-mode .card {
   background-color: #ffffff !important;
-  color: #4169e1 important;
+  color: #1a1a1a !important;
+}
+
+.light-mode .card-title {
+  color: #4169e1 !important;
 }
 
 .light-mode .profile-pic {
-  background: #4169e1; /* Simple blue border for light mode */
+  border-color: #4169e1;
 }
 
 .light-mode a {
   color: #4169e1;
 }
 
-/* --- Utility --- */
+.light-mode .btn-outline-light {
+  border-color: #000;
+  color: #000;
+}
+
+/* Prevent sections from being hidden under sticky navbar */
 .section-offset {
   scroll-margin-top: 100px;
 }
