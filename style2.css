@@ -136,13 +136,13 @@ a:hover {
     #4169e1 50%, 
     #0047ab 55%, 
     #002366 100%
-  ) !important;
+  ) important;
   border-bottom: 1px solid #4169e1;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .light-mode .card {
-  background-color: #ffffff !important;
+  background-color: #ffffff important;
   color: #4169e1 important;
 }
 
