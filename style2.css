@@ -67,7 +67,7 @@ a:hover {
 
 /* --- Cards (Metallic Blue BG) --- */
 .card {
-  background: linear-gradient(135deg, #001a4d 0%, #003399 100%) !important;
+  background: linear-gradient(135deg, #001a4d 0%, #003399 100%) important;
   color: #ffffff !important; /* White text for better readability on blue */
   border-radius: 8px;
   overflow: hidden;
