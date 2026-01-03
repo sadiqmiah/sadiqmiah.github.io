@@ -62,7 +62,7 @@ a:hover {
     #0047ab 55%, 
     #002366 100%
   );
-  border: none !important; 
+  border: none important; 
 }
 
 /* --- Cards (Metallic Blue BG) --- */
