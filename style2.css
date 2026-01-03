@@ -1,0 +1,153 @@
+body {
+  background-color: #110e0e;
+  color: #e6a6ec;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+  color: #e6a6ec;
+}
+
+a {
+  color: #e6a6ec;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* --- Typewriter & Blinking Cursor --- */
+.cursor {
+  font-weight: bold;
+  animation: blink 1s step-end infinite;
+  color: inherit;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* --- Navbar (Metallic Royal Blue) --- */
+.bg-gradient-purple {
+  background: linear-gradient(
+    145deg, 
+    #002366 0%, 
+    #0047ab 45%, 
+    #4169e1 50%, 
+    #0047ab 55%, 
+    #002366 100%
+  ) !important;
+  border-bottom: 1px solid #4169e1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.text-light-purple {
+  color: #e6a6ec;
+}
+
+/* --- Profile Picture (Metallic Bright Red Border) --- */
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 5px; /* Space for the metallic gradient border */
+  background: linear-gradient(
+    45deg, 
+    #8b0000, 
+    #ff0000, 
+    #ff9999, 
+    #ff0000, 
+    #8b0000
+  );
+  border: none !important; 
+}
+
+/* --- Cards (Metallic Blue BG with Red Border) --- */
+.card {
+  background: linear-gradient(135deg, #001a4d 0%, #003399 100%) !important;
+  color: #ffffff !important; /* White text for better readability on blue */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.border-purple {
+  border: 4px solid !important;
+  border-image: linear-gradient(
+    to bottom right, 
+    #8b0000, 
+    #ff0000, 
+    #ff4d4d, 
+    #ff0000, 
+    #8b0000
+  ) 1;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+}
+
+.card-title {
+  color: #ffffff;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* --- Scroll-to-top Button --- */
+#scrollTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #0047ab; /* Changed to match metallic blue theme */
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+#scrollTopBtn:hover {
+  background-color: #ff0000; /* Turns red on hover to match borders */
+}
+
+/* --- Light Mode Styling --- */
+.light-mode {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+.light-mode h1, .light-mode h2, .light-mode h3 {
+  color: #002366;
+}
+
+.light-mode .navbar,
+.light-mode .bg-gradient-purple {
+  background: linear-gradient(to right, #f0f0f0, #4169e1) !important;
+}
+
+.light-mode .card {
+  background-color: #ffffff !important;
+  color: #1a1a1a !important;
+  border: 1px solid #ddd !important;
+  border-image: none !important; /* Removes metallic border in light mode */
+}
+
+.light-mode .profile-pic {
+  background: #4169e1; /* Simple blue border for light mode */
+}
+
+.light-mode a {
+  color: #0047ab;
+}
+
+/* --- Utility --- */
+.section-offset {
+  scroll-margin-top: 100px;
+}
