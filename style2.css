@@ -1,6 +1,6 @@
 body {
   background-color: #110e0e;
-  color: #4169e1;
+  color:#4169e1;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -17,65 +17,33 @@ a:hover {
   text-decoration: underline;
 }
 
-/* --- Navbar (Metallic Royal Blue) --- */
-.bg-gradient-blue {
-  background: linear-gradient(
-    145deg, 
-    #002366 0%, 
-    #0047ab 45%, 
-    #4169e1 50%, 
-    #0047ab 55%, 
-    #002366 100%
-  ) !important;
-  border-bottom: 1px solid #4169e1;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+.bg-gradient-purple {
+  background: linear-gradient(to right, #8e44ad, #e6a6ec);
 }
 
-.text-light-blue {
+.text-light-purple {
   color: #4169e1;
 }
 
-/* --- Profile Picture (Metallic Bright Blue Border) --- */
 .profile-pic {
   width: 180px;
   height: 180px;
   border-radius: 50%;
+  border: 4px solid #8e44ad;
   object-fit: cover;
-  padding: 4px; /* Space for the metallic gradient border */
-  background: linear-gradient(
-    45deg, 
-    #002366 0%, 
-    #0047ab 45%, 
-    #4169e1 50%, 
-    #0047ab 55%, 
-    #002366 100%
-  );
-  border: none important; 
 }
 
-/* --- Cards (Metallic Blue BG) --- */
+.border-purple {
+  border: 2px solid #4169e1 !important;
+}
+
 .card {
-  background: linear-gradient(135deg, #001a4d 0%, #003399 100%) important;
-  color: #ffffff important; /* White text for better readability on blue */
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.border-blue {
-  border: 4px solid important;
-  border-image: linear-gradient(
-    to bottom right, 
-    #002366 0%, 
-    #0047ab 45%, 
-    #4169e1 50%, 
-    #0047ab 55%, 
-    #002366 100%
-  ) 1;
-  box-shadow: 0 0 15px rgba(65, 105, 225);
+  background-color: #1c1c1c;
+  color: #4169e1;
 }
 
 .card-title {
-  color: #ffffff;
+  color: #4169e1;
 }
 
 .card-img-top {
@@ -83,7 +51,7 @@ a:hover {
   object-fit: cover;
 }
 
-/* --- Scroll-to-top Button --- */
+/* Scroll-to-top Button */
 #scrollTopBtn {
   display: none;
   position: fixed;
@@ -93,19 +61,18 @@ a:hover {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #0047ab; /* Changed to match metallic blue theme */
+  background-color: #4169e1;
   color: white;
   cursor: pointer;
   padding: 10px 15px;
   border-radius: 50%;
-  transition: background-color 0.3s;
 }
 
 #scrollTopBtn:hover {
-  background-color: #ffffff; /* Turns white on hover to match borders */
+  background-color: #a66bbe;
 }
 
-/* --- Light Mode Styling --- */
+/* Light mode styling */
 .light-mode {
   background-color: #ffffff;
   color: #1a1a1a;
@@ -113,7 +80,7 @@ a:hover {
 
 .light-mode .navbar,
 .light-mode .bg-gradient-purple {
-  background: linear-gradient(to right, #f0f0f0, #4169e1) !important;
+  background: linear-gradient(to right, #f0f0f0, #d3a6ec) !important;
 }
 
 .light-mode .card {
