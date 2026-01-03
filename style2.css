@@ -47,7 +47,7 @@ a:hover {
   color: #4169e1;
 }
 
-/* --- Profile Picture (Metallic Bright Red Border) --- */
+/* --- Profile Picture (Metallic Bright Blue Border) --- */
 .profile-pic {
   width: 180px;
   height: 180px;
@@ -56,11 +56,11 @@ a:hover {
   padding: 4px; /* Space for the metallic gradient border */
   background: linear-gradient(
     45deg, 
-    #4169e1, 
-    #ff0000, 
-    #ff9999, 
-    #ff0000, 
-    #4169e1
+    #002366 0%, 
+    #0047ab 45%, 
+    #4169e1 50%, 
+    #0047ab 55%, 
+    #002366 100%
   );
   border: none !important; 
 }
@@ -77,11 +77,11 @@ a:hover {
   border: 4px solid !important;
   border-image: linear-gradient(
     to bottom right, 
-    #4169e1, 
-    #ff0000, 
-    #ff4d4d, 
-    #ff0000, 
-    #4169e1
+    #002366 0%, 
+    #0047ab 45%, 
+    #4169e1 50%, 
+    #0047ab 55%, 
+    #002366 100%
   ) 1;
   box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
 }
@@ -133,8 +133,8 @@ a:hover {
 }
 
 .light-mode .card {
-  background-color: #ffffff !important;
-  color: #1a1a1a !important;
+  background-color: #ffffff important;
+  color: #1a1a1a important;
 }
 
 .light-mode .profile-pic {
