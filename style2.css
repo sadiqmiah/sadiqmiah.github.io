@@ -133,8 +133,8 @@ a:hover {
 }
 
 .light-mode .card {
-  background-color: #ffffff important;
-  color: #1a1a1a important;
+  background-color: #ffffff !important;
+  color: #1a1a1a !important;
 }
 
 .light-mode .profile-pic {
