@@ -1,15 +1,15 @@
 body {
   background-color: #110e0e;
-  color:#4169e1;
+  color: #e6a6ec;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1, h2, h3 {
-  color: #4169e1;
+  color: #e6a6ec;
 }
 
 a {
-  color: #4169e1;
+  color: #e6a6ec;
   text-decoration: none;
 }
 
@@ -22,7 +22,7 @@ a:hover {
 }
 
 .text-light-purple {
-  color: #4169e1;
+  color: #e6a6ec;
 }
 
 .profile-pic {
@@ -34,16 +34,16 @@ a:hover {
 }
 
 .border-purple {
-  border: 2px solid #4169e1 !important;
+  border: 2px solid #8e44ad !important;
 }
 
 .card {
   background-color: #1c1c1c;
-  color: #4169e1;
+  color: #e6a6ec;
 }
 
 .card-title {
-  color: #4169e1;
+  color: #e6a6ec;
 }
 
 .card-img-top {
@@ -61,7 +61,7 @@ a:hover {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #4169e1;
+  background-color: #8e44ad;
   color: white;
   cursor: pointer;
   padding: 10px 15px;
@@ -89,15 +89,15 @@ a:hover {
 }
 
 .light-mode .card-title {
-  color: #4169e1 !important;
+  color: #8e44ad !important;
 }
 
 .light-mode .profile-pic {
-  border-color: #4169e1;
+  border-color: #d3a6ec;
 }
 
 .light-mode a {
-  color: #4169e1;
+  color: #8e44ad;
 }
 
 .light-mode .btn-outline-light {
