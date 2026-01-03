@@ -129,12 +129,21 @@ a:hover {
 
 .light-mode .navbar,
 .light-mode .bg-gradient-blue {
-  background: linear-gradient(to right, #f0f0f0, #4169e1) important;
+  background: linear-gradient(
+    145deg, 
+    #002366 0%, 
+    #0047ab 45%, 
+    #4169e1 50%, 
+    #0047ab 55%, 
+    #002366 100%
+  ) !important;
+  border-bottom: 1px solid #4169e1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .light-mode .card {
   background-color: #ffffff !important;
-  color: #4169e1 !important;
+  color: #4169e1 important;
 }
 
 .light-mode .profile-pic {
