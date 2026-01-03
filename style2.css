@@ -1,15 +1,15 @@
 body {
   background-color: #110e0e;
-  color: #e6a6ec;
+  color: #0707fa;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1, h2, h3 {
-  color: #e6a6ec;
+  color: #0707fa;
 }
 
 a {
-  color: #e6a6ec;
+  color: #0707fa;
   text-decoration: none;
 }
 
@@ -30,7 +30,7 @@ a:hover {
 }
 
 /* --- Navbar (Metallic Royal Blue) --- */
-.bg-gradient-purple {
+.bg-gradient-blue {
   background: linear-gradient(
     145deg, 
     #002366 0%, 
@@ -43,8 +43,8 @@ a:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-.text-light-purple {
-  color: #e6a6ec;
+.text-light-blue {
+  color: #4169e1;
 }
 
 /* --- Profile Picture (Metallic Bright Red Border) --- */
@@ -53,7 +53,7 @@ a:hover {
   height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  padding: 5px; /* Space for the metallic gradient border */
+  padding: 4px; /* Space for the metallic gradient border */
   background: linear-gradient(
     45deg, 
     #8b0000, 
@@ -124,7 +124,7 @@ a:hover {
 }
 
 .light-mode h1, .light-mode h2, .light-mode h3 {
-  color: #002366;
+  color: #4169e1;
 }
 
 .light-mode .navbar,
@@ -144,7 +144,7 @@ a:hover {
 }
 
 .light-mode a {
-  color: #0047ab;
+  color: #4169e1;
 }
 
 /* --- Utility --- */
