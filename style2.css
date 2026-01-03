@@ -1,15 +1,15 @@
 body {
   background-color: #110e0e;
-  color: #0707fa;
+  color: #4169e1;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1, h2, h3 {
-  color: #0707fa;
+  color: #4169e1;
 }
 
 a {
-  color: #0707fa;
+  color: #4169e1;
   text-decoration: none;
 }
 
@@ -114,7 +114,7 @@ a:hover {
 }
 
 #scrollTopBtn:hover {
-  background-color: #ff0000; /* Turns red on hover to match borders */
+  background-color: #ffffff; /* Turns white on hover to match borders */
 }
 
 /* --- Light Mode Styling --- */
@@ -128,15 +128,13 @@ a:hover {
 }
 
 .light-mode .navbar,
-.light-mode .bg-gradient-purple {
+.light-mode .bg-gradient-blue {
   background: linear-gradient(to right, #f0f0f0, #4169e1) !important;
 }
 
 .light-mode .card {
   background-color: #ffffff !important;
   color: #1a1a1a !important;
-  border: 1px solid #ddd !important;
-  border-image: none !important; /* Removes metallic border in light mode */
 }
 
 .light-mode .profile-pic {
