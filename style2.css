@@ -109,3 +109,38 @@ a:hover {
 .section-offset {
   scroll-margin-top: 100px;
 }
+
+
+/* ===============================
+   Skills Card Scroll Styling
+   =============================== */
+
+.skills-scroll-container {
+  max-height: 320px;           /* controls scroll area height */
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+/* Modern scrollbar (Chrome, Edge, Windows) */
+.skills-scroll-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.skills-scroll-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.skills-scroll-container::-webkit-scrollbar-thumb {
+  background-color: rgba(150, 150, 255, 0.4);
+  border-radius: 10px;
+}
+
+.skills-scroll-container::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(150, 150, 255, 0.7);
+}
+
+/* Firefox */
+.skills-scroll-container {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(150,150,255,0.6) transparent;
+}
