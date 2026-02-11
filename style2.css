@@ -249,8 +249,10 @@ a:hover {
   object-fit: contain;
 }
 
-.os-icon {
-  width: 18px;
-  height: 18px;
-  object-fit: contain;
+/* Put icons on the right side */
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-direction: row-reverse;
 }
