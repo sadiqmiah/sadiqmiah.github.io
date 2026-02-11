@@ -144,3 +144,15 @@ a:hover {
   scrollbar-width: thin;
   scrollbar-color: rgba(150,150,255,0.6) transparent;
 }
+/* Outlook Icon Styling */
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* space between text and icon */
+}
+
+.outlook-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
