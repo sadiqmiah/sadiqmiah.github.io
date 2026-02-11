@@ -196,3 +196,55 @@ a:hover {
   height: 18px;
   object-fit: contain;
 }
+
+/* Gmail Icon Styling */
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* space between text and icon */
+}
+
+.gmail-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+/* Docs Icon Styling */
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* space between text and icon */
+}
+
+.docs-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+/* Sheets Icon Styling */
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* space between text and icon */
+}
+
+.sheets-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+/* Slides Icon Styling */
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* space between text and icon */
+}
+
+.slides-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
