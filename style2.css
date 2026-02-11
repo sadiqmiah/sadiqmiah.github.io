@@ -249,10 +249,21 @@ a:hover {
   object-fit: contain;
 }
 
-/* Put icons on the right side */
+/* Only affects items with OS icons */
 .skill-item {
   display: flex;
   align-items: center;
   gap: 6px;
-  flex-direction: row-reverse;
+}
+
+/* Icons should stay compact */
+.os-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+/* Slight left space before icons */
+.platform-sep {
+  opacity: 0.6;
 }
