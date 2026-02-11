@@ -267,3 +267,69 @@ a:hover {
 .platform-sep {
   opacity: 0.6;
 }
+
+/* GitHub Icon Styling */
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* space between text and icon */
+}
+
+.github-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+/* Express.js Icon Styling */
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* space between text and icon */
+}
+
+.express-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+/* jQuery Icon Styling */
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* space between text and icon */
+}
+
+.jquery-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+/* Bootstrap Icon Styling */
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* space between text and icon */
+}
+
+.bootstrap-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+/* Git BASH Icon Styling */
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* space between text and icon */
+}
+
+.gitbash-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
