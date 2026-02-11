@@ -248,3 +248,9 @@ a:hover {
   height: 18px;
   object-fit: contain;
 }
+
+.os-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
