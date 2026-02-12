@@ -333,3 +333,67 @@ a:hover {
   object-fit: contain;
 }
 
+/* PostgreSQL Icon Styling */
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* space between text and icon */
+}
+
+.postgresql-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+/* Front-End Development Icon Styling */
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* space between text and icon */
+}
+
+.frontend-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+/* Back-End Development Icon Styling */
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* space between text and icon */
+}
+
+.backend-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+/* Web Design Icon Styling */
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* space between text and icon */
+}
+
+.web-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+/* Data Structures Icon Styling */
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* space between text and icon */
+}
+
+.data-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
