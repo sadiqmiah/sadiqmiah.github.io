@@ -397,3 +397,22 @@ a:hover {
   height: 18px;
   object-fit: contain;
 }
+
+/* Only affects items with phone OS icons */
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Icons should stay compact */
+.os-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+/* Slight left space before icons */
+.platform-sep {
+  opacity: 0.6;
+}
