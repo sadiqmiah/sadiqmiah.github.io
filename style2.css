@@ -145,6 +145,32 @@ a:hover {
   scrollbar-color: rgba(150,150,255,0.6) transparent;
 }
 
+.education-scroll-container {
+  max-height: 320px;
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
+/* Modern Scrollbar */
+.education-scroll-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.education-scroll-container::-webkit-scrollbar-thumb {
+  background: rgba(230, 166, 236, 0.5);
+  border-radius: 10px;
+}
+
+.education-scroll-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(230, 166, 236, 0.8);
+}
+
+/* Firefox */
+.education-scroll-container {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(230,166,236,0.6) transparent;
+}
+
 /* Outlook Icon Styling */
 .skill-item {
   display: flex;
